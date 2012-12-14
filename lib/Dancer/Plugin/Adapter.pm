@@ -4,7 +4,7 @@ use warnings;
 
 package Dancer::Plugin::Adapter;
 # ABSTRACT: Wrap any simple class as a service for Dancer
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 use Dancer::Plugin;
 use Class::Load qw/try_load_class/;
@@ -66,7 +66,7 @@ Dancer::Plugin::Adapter - Wrap any simple class as a service for Dancer
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -205,7 +205,7 @@ L<Dancer::Plugin>
 =head2 Bugs / Feature Requests
 
 Please report any bugs or feature requests through the issue tracker
-at L<https://github.com//dancer-plugin-adapter/issues>.
+at L<https://github.com/dagolden/dancer-plugin-adapter/issues>.
 You will be notified automatically of any progress on your issue.
 
 =head2 Source Code

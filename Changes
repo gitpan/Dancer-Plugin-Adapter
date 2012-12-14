@@ -1,5 +1,15 @@
 Revision history for Dancer-Plugin-Adapter
 
+0.002     2012-12-14 12:28:27 America/New_York
+
+  [DOCUMENTATION]
+
+  - Fixed URL for issues
+
+  [OTHER]
+
+  - Added Class::Load::XS as recommended
+
 0.001     2012-12-14 12:15:44 America/New_York
 
   - First release

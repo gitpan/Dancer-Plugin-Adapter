@@ -29,7 +29,9 @@ no_index:
 provides:
   Dancer::Plugin::Adapter:
     file: lib/Dancer/Plugin/Adapter.pm
-    version: 0.001
+    version: 0.002
+recommends:
+  Class::Load::XS: 0
 requires:
   Class::Load: 0
   Dancer::Plugin: 0
@@ -37,7 +39,7 @@ requires:
   strict: 0
   warnings: 0
 resources:
-  bugtracker: https://github.com//dancer-plugin-adapter/issues
+  bugtracker: https://github.com/dagolden/dancer-plugin-adapter/issues
   homepage: https://metacpan.org/release/Dancer-Plugin-Adapter
   repository: git://github.com/dagolden/dancer-plugin-adapter.git
-version: 0.001
+version: 0.002

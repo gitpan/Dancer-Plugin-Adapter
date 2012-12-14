@@ -2,7 +2,7 @@ NAME
     Dancer::Plugin::Adapter - Wrap any simple class as a service for Dancer
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
       # in config.yml
@@ -122,8 +122,8 @@ SEE ALSO
 SUPPORT
   Bugs / Feature Requests
     Please report any bugs or feature requests through the issue tracker at
-    <https://github.com//dancer-plugin-adapter/issues>. You will be notified
-    automatically of any progress on your issue.
+    <https://github.com/dagolden/dancer-plugin-adapter/issues>. You will be
+    notified automatically of any progress on your issue.
 
   Source Code
     This is open source software. The code repository is available for
