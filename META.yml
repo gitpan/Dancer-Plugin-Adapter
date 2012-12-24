@@ -3,10 +3,10 @@ abstract: 'Wrap any simple class as a service for Dancer'
 author:
   - 'David Golden <dagolden@cpan.org>'
 build_requires:
-  Dancer: 0
   File::Find: 0
   File::Temp: 0.19
   HTTP::Tiny: 0
+  LWP::UserAgent: 0
   Test::More: 0.96
   Test::TCP: 0
 configure_requires:
@@ -29,11 +29,12 @@ no_index:
 provides:
   Dancer::Plugin::Adapter:
     file: lib/Dancer/Plugin/Adapter.pm
-    version: 0.002
+    version: 0.003
 recommends:
   Class::Load::XS: 0
 requires:
   Class::Load: 0
+  Dancer: 0
   Dancer::Plugin: 0
   perl: 5.008001
   strict: 0
@@ -42,4 +43,4 @@ resources:
   bugtracker: https://github.com/dagolden/dancer-plugin-adapter/issues
   homepage: https://metacpan.org/release/Dancer-Plugin-Adapter
   repository: git://github.com/dagolden/dancer-plugin-adapter.git
-version: 0.002
+version: 0.003

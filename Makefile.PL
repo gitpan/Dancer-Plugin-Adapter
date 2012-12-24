@@ -12,10 +12,10 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Wrap any simple class as a service for Dancer",
   "AUTHOR" => "David Golden <dagolden\@cpan.org>",
   "BUILD_REQUIRES" => {
-    "Dancer" => 0,
     "File::Find" => 0,
     "File::Temp" => "0.19",
     "HTTP::Tiny" => 0,
+    "LWP::UserAgent" => 0,
     "Test::More" => "0.96",
     "Test::TCP" => 0
   },
@@ -28,11 +28,12 @@ my %WriteMakefileArgs = (
   "NAME" => "Dancer::Plugin::Adapter",
   "PREREQ_PM" => {
     "Class::Load" => 0,
+    "Dancer" => 0,
     "Dancer::Plugin" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }

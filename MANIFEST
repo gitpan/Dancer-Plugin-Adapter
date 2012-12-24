@@ -12,6 +12,7 @@ perlcritic.rc
 t/00-compile.t
 t/file-temp.t
 t/http-tiny.t
+t/scopes.t
 t/www-postmark.t
 xt/author/critic.t
 xt/author/pod-spell.t
