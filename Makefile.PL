@@ -15,6 +15,7 @@ my %WriteMakefileArgs = (
     "File::Find" => 0,
     "File::Temp" => "0.19",
     "HTTP::Tiny" => 0,
+    "JSON" => 0,
     "LWP::UserAgent" => 0,
     "Test::More" => "0.96",
     "Test::TCP" => 0
@@ -33,7 +34,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.003",
+  "VERSION" => "0.004",
   "test" => {
     "TESTS" => "t/*.t"
   }

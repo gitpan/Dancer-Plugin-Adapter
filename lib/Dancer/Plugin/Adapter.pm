@@ -4,7 +4,7 @@ use warnings;
 
 package Dancer::Plugin::Adapter;
 # ABSTRACT: Wrap any simple class as a service for Dancer
-our $VERSION = '0.003'; # VERSION
+our $VERSION = '0.004'; # VERSION
 
 use Dancer::Plugin;
 use Dancer ':syntax';
@@ -99,7 +99,7 @@ Dancer::Plugin::Adapter - Wrap any simple class as a service for Dancer
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 

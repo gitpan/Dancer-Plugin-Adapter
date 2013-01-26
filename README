@@ -2,7 +2,7 @@ NAME
     Dancer::Plugin::Adapter - Wrap any simple class as a service for Dancer
 
 VERSION
-    version 0.003
+    version 0.004
 
 SYNOPSIS
       # in config.yml
